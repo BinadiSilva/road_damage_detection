@@ -31,5 +31,5 @@ The objective of this project is to develop a video-based image processing syste
 All merges to the main branch require approval from the project leader.
 
 ## Team
-Group project developed by ICT2403 students.
+Group project developed by ICT2403_Group03 students.
 
