@@ -2,17 +2,17 @@ import os
 import cv2
 import numpy as np
 
-VIDEO_PATH = "/Users/binadisilva/Desktop/RUSL/IP/Project_IP/Videos/video1.MOV"
+VIDEO_PATH = "/Users/binadisilva/road_damage_detection/Videoes"
 
-BASE_OUTPUT_FOLDER = "/Users/binadisilva/Desktop/RUSL/IP/Project_IP/Final_Output/crack"
+BASE_OUTPUT_FOLDER = "/Users/binadisilva/road_damage_detection"
 
 FRAME_INTERVAL = 10   # save every 10th frame
 
 # OUTPUT FOLDERS
-ORIGINAL_FOLDER = os.path.join(BASE_OUTPUT_FOLDER, "01_original_frames")
-ENHANCED_FOLDER = os.path.join(BASE_OUTPUT_FOLDER, "02_enhanced_frames")
-MASK_FOLDER     = os.path.join(BASE_OUTPUT_FOLDER, "03_segmented_masks")
-MARKED_FOLDER   = os.path.join(BASE_OUTPUT_FOLDER, "04_final_marked_outputs")
+ORIGINAL_FOLDER = os.path.join(BASE_OUTPUT_FOLDER, "Frames")
+ENHANCED_FOLDER = os.path.join(BASE_OUTPUT_FOLDER, "Enhanced")
+MASK_FOLDER     = os.path.join(BASE_OUTPUT_FOLDER, "Segmented")
+MARKED_FOLDER   = os.path.join(BASE_OUTPUT_FOLDER, "Final_Output")
 
 os.makedirs(ORIGINAL_FOLDER, exist_ok=True)
 os.makedirs(ENHANCED_FOLDER, exist_ok=True)
