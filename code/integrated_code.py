@@ -2,7 +2,7 @@ import os
 import cv2
 import numpy as np
 
-VIDEO_PATH = "/Users/binadisilva/road_damage_detection/Videoes"
+VIDEO_PATH = "/Users/binadisilva/road_damage_detection/Videos/crack.MOV"
 
 BASE_OUTPUT_FOLDER = "/Users/binadisilva/road_damage_detection"
 
