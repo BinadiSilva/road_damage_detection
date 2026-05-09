@@ -14,17 +14,17 @@ ICT/2023/078_6061_Gunarathna_WAAI
 
 1. Project Overview
 This project presents a video-based road damage detection system developed using classical image processing techniques. The system processes road surface videos captured using mobile devices and performs:
-            * Frame extraction
-            * Image enhancement
-            * Road damage segmentation
-            * Final damage visualization
+* Frame extraction
+* Image enhancement
+* Road damage segmentation
+* Final damage visualization
 
 The main objective is to identify and isolate road surface degradations such as:
-            * Cracks
-            * Potholes
-            * Patch Failures
-            * Edge Cracking
-            * Road Marking Removal
+* Cracks
+* Potholes
+* Patch Failures
+* Edge Cracking
+* Road Marking Removal
 
 2. Dataset and Video Acquisition
 Videos were recorded under real-world environmental conditions from:
